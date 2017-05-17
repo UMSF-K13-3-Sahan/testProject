@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SecondProj</title>
+  </head>
+  <body>
+    <div class="maindiv">
+      <% if is_teacher? %>
+          <%= react_component('Users') %>
+      <% end %>
+      <%= react_component('Classes', is_teacher: is_teacher?) %>
+    </div>
+  </body>
+</html>

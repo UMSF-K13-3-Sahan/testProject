@@ -1,0 +1,111 @@
+
+// They will automatically be included in application.scss.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.a{
+  background-color: #ffe4e3;
+}
+.maindiv{
+  display: flex;
+}
+
+.users {
+  width: 300px;
+  margin-left: 20px;
+}
+
+.classes {
+  width: 300px;
+  margin-left: 500px;
+}
+
+.contacts-list {
+  padding: 0;
+  width: 100%;
+}
+.user{
+  list-style-type: none;
+  align-items: center;
+  font-family: sans-serif;
+  width: 100%;
+  padding: 5px;
+  border-bottom: 1px dotted #ff958a;
+}
+.class{
+  list-style-type: none;
+  align-items: center;
+  font-family: sans-serif;
+  width: 100%;
+  padding: 5px;
+  border-bottom: 1px dotted #ff958a;
+}
+
+.contact-name {
+  width: 80%;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.contact-number {
+  font-size: 18px;
+  color: grey;
+  width:50%;
+  display: inline-block;
+}
+.models-id{
+  float: right;
+  font-size: 18px;
+  color: grey;
+}
+.text-box {
+  width: 96%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.text-box:focus{
+  border: 2px solid #f44336;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid #f44336;
+  padding: 15px 32px;
+  font-size: 16px;
+  width : 104%;
+}
+
+.button:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.hideMe {
+  animation: cssAnimation 2s forwards;
+}
+@keyframes cssAnimation {
+  0%   {opacity: 1;}
+  90%  {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+
+.nav_heigth{
+  height: 40px;
+}
